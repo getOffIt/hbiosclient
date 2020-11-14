@@ -1,0 +1,6 @@
+framework module Pods_HBRTipsTests {
+  umbrella header "Pods-HBRTipsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
