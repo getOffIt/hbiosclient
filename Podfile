@@ -10,7 +10,7 @@ inhibit_all_warnings!
 target 'HBRTips' do
 
   pod 'R.swift', '5.3.0'
-  pod 'SwiftLint', '0.37.0'
+  pod 'SwiftLint', '0.41.0'
 
   target 'HBRTipsTests' do
     inherit! :search_paths

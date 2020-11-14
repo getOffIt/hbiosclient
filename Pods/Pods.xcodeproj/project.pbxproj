@@ -603,6 +603,25 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		05AC31646C20365108DB76DB14FB6E5F /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 525E3B966019CACD87224ED7E5BC7A8E /* SwiftLint.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				EXPANDED_CODE_SIGN_IDENTITY = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Staging;
+		};
 		07EC4A86430AB673BB2353853A0B1BE8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 909E3B10AEA9C0D0F67CCCBE22A1AFB6 /* Pods-HBRTipsTests.release.xcconfig */;
@@ -798,24 +817,6 @@
 			};
 			name = Release;
 		};
-		40DF60A06D553EEF6A64E09B7FDCAC8E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 525E3B966019CACD87224ED7E5BC7A8E /* SwiftLint.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				EXPANDED_CODE_SIGN_IDENTITY = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		46AC0ED3E07C8E1D3D15FAE7B1248354 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8696F35F15EB25B15F89D8B722DE715D /* R.swift.Library.xcconfig */;
@@ -915,25 +916,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
-		};
-		73C6E004C9D3BA74955E2866AA24B52C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 525E3B966019CACD87224ED7E5BC7A8E /* SwiftLint.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				EXPANDED_CODE_SIGN_IDENTITY = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
 		};
 		80268A6B57F2AB3DDC50F41B67CFDB61 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1101,7 +1083,7 @@
 			};
 			name = Release;
 		};
-		ACFF45958FA4F991B43BA25A37031704 /* Staging */ = {
+		D5E647C479A2F71B9174B5B84350781A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 525E3B966019CACD87224ED7E5BC7A8E /* SwiftLint.xcconfig */;
 			buildSettings = {
@@ -1111,14 +1093,32 @@
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				EXPANDED_CODE_SIGN_IDENTITY = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D789A0A8674425AF523D79F531198E4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 525E3B966019CACD87224ED7E5BC7A8E /* SwiftLint.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				EXPANDED_CODE_SIGN_IDENTITY = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Staging;
+			name = Release;
 		};
 		E4014D2C0242DBF8D204F0648D96E70E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1244,9 +1244,9 @@
 		0C9863A6212D57889A0D584585717915 /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				40DF60A06D553EEF6A64E09B7FDCAC8E /* Debug */,
-				73C6E004C9D3BA74955E2866AA24B52C /* Release */,
-				ACFF45958FA4F991B43BA25A37031704 /* Staging */,
+				D5E647C479A2F71B9174B5B84350781A /* Debug */,
+				D789A0A8674425AF523D79F531198E4C /* Release */,
+				05AC31646C20365108DB76DB14FB6E5F /* Staging */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
