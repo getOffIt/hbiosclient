@@ -1,6 +1,6 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-platform :ios, '10.0'
+platform :ios, '12.0'
 
 use_frameworks!
 
@@ -9,7 +9,7 @@ inhibit_all_warnings!
 
 target 'HBRTips' do
 
-  pod 'R.swift', '5.1.0'
+  pod 'R.swift', '5.3.0'
   pod 'SwiftLint', '0.37.0'
 
   target 'HBRTipsTests' do
