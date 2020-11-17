@@ -16,7 +16,7 @@ struct TODOsPODO {
 class TodosService {
 
     struct Endpoints {
-        let todos = "http://hbrtips.com.s3-website.eu-west-2.amazonaws.com/data/latesttipPROD.json"
+        let todos = "https://hbrtips.com/data/latesttipPROD.json"
     }
 
     struct ResponseDataTip: Decodable {
