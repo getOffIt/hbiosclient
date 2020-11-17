@@ -17,6 +17,7 @@
 		39EAB7DB631D555E3E4F4EDE /* Pods_HBRTips.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D3FB9EF2352C59D7E17E41 /* Pods_HBRTips.framework */; };
 		553FC23C214047CB001D9362 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553FC23B214047CB001D9362 /* R.generated.swift */; };
 		C05B8D2625609A16002D0CA9 /* SimpleTipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05B8D2525609A16002D0CA9 /* SimpleTipViewController.swift */; };
+		C05B8D3125642D25002D0CA9 /* ServiceTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05B8D3025642D25002D0CA9 /* ServiceTip.swift */; };
 		C90395241FC622D2006F1DC0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90395231FC622D2006F1DC0 /* main.swift */; };
 		C90395261FC62399006F1DC0 /* TestsAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90395251FC62399006F1DC0 /* TestsAppDelegate.swift */; };
 		C90395271FC62425006F1DC0 /* TestsAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90395251FC62399006F1DC0 /* TestsAppDelegate.swift */; };
@@ -56,6 +57,7 @@
 		AD2956866A9B185E312373F9 /* Pods-HBRTipsTests.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBRTipsTests.staging.xcconfig"; path = "Target Support Files/Pods-HBRTipsTests/Pods-HBRTipsTests.staging.xcconfig"; sourceTree = "<group>"; };
 		B7A4113D017C1017A7059D0F /* Pods-HBRTips.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBRTips.release.xcconfig"; path = "Target Support Files/Pods-HBRTips/Pods-HBRTips.release.xcconfig"; sourceTree = "<group>"; };
 		C05B8D2525609A16002D0CA9 /* SimpleTipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTipViewController.swift; sourceTree = "<group>"; };
+		C05B8D3025642D25002D0CA9 /* ServiceTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceTip.swift; sourceTree = "<group>"; };
 		C70331CFC585D0247A40A203 /* Pods-HBRTips.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBRTips.debug.xcconfig"; path = "Target Support Files/Pods-HBRTips/Pods-HBRTips.debug.xcconfig"; sourceTree = "<group>"; };
 		C90395231FC622D2006F1DC0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C90395251FC62399006F1DC0 /* TestsAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsAppDelegate.swift; sourceTree = "<group>"; };
@@ -214,6 +216,7 @@
 				C90395231FC622D2006F1DC0 /* main.swift */,
 				2A1E77361F384BFC006C84D4 /* AppDelegate.swift */,
 				C05B8D2525609A16002D0CA9 /* SimpleTipViewController.swift */,
+				C05B8D3025642D25002D0CA9 /* ServiceTip.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -432,6 +435,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A9222821F38797600A648E6 /* ConfigurationManager.swift in Sources */,
+				C05B8D3125642D25002D0CA9 /* ServiceTip.swift in Sources */,
 				2ABEE6D61F3886D700531205 /* RootRouter.swift in Sources */,
 				C90395241FC622D2006F1DC0 /* main.swift in Sources */,
 				2A1E77371F384BFC006C84D4 /* AppDelegate.swift in Sources */,

@@ -30,7 +30,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <mutableString key="content">The Covid-19 pandemic has disproportionately affected women’s careers: One in four are considering downshifting or leaving the workforce entirely due to the strain of the crisis. So how can men be an ally to their female colleagues right now — especially when working remotely? First, be an active sponsor and advocate for women, and particularly women of color. Talk about the great work they’re doing and the specific results of their efforts. Next, ensure women’s voices are heard in virtual meetings, passing the mic when you can. And take a gender-equal approach to distributing mundane chores and administrative duties, which are disproportionately assigned to women and detract from more career-enhancing responsibilities. You can create a simple rotational schedule so that everyone takes turns doing things like creating the agenda, taking notes, and keeping a meeting on time. And crucially, encourage the women you work with to say “no” if they’re being targeted with these kinds of assignments. We need to retain and advance talented women in the workforce — anything short of this commitment will undermine gains in gender equity.</mutableString>
+                                        <string key="content">The Covid-19 pandemic has disproportionately affected women’s careers: One in four are considering downshifting or leaving the workforce entirely due to the strain of the crisis. So how can men be an ally to their female colleagues right now — especially when working remotely? First, be an active sponsor and advocate for women, and particularly women of color. Talk about the great work they’re doing and the specific results of their efforts. Next, ensure women’s voices are heard in virtual meetings, passing the mic when you can. And take a gender-equal approach to distributing mundane chores and administrative duties, which are disproportionately assigned to women and detract from more career-enhancing responsibilities. You can create a simple rotational schedule so that everyone takes turns doing things like creating the agenda, taking notes, and keeping a meeting on time. And crucially, encourage the women you work with to say “no” if they’re being targeted with these kinds of assignments. We need to retain and advance talented women in the workforce — anything short of this commitment will undermine gains in gender equity.</string>
                                         <attributes>
                                             <color key="NSColor" systemColor="labelColor"/>
                                             <font key="NSFont" size="16" name="HelveticaNeue"/>
@@ -40,7 +40,7 @@
                                 </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nov 13 2020" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n8L-yq-guT">
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nov 13 2020" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n8L-yq-guT">
                                 <rect key="frame" x="20" y="109" width="374" height="27"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
@@ -51,6 +51,11 @@
                         <viewLayoutGuide key="safeArea" id="pB1-h8-zZN"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
+                    <connections>
+                        <outlet property="articleTitle" destination="RXb-Rv-4Io" id="7Bm-w3-Cn9"/>
+                        <outlet property="date" destination="n8L-yq-guT" id="KaD-P5-txr"/>
+                        <outlet property="textView" destination="FPh-sQ-bEk" id="JRE-2g-k6o"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UUP-N1-sri" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
